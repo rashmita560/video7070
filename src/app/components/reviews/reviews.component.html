@@ -1,0 +1,25 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Customer Reviews</h2>
+                <p>Rated Excellent <b>9.8/10</b> based on 850+ reviews</p>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <ngb-pagination
+                  [collectionSize]="totalItems"
+                  [(page)]="currentPage"
+                  [pageSize]="itemsPerPage"
+                  (pageChange)="onPageChange($event)"
+                ></ngb-pagination>
+              
+                <ul>
+                  <li *ngFor="let item of pagedItems">{{ item }}</li>
+                </ul> 
+            </div>
+        </div>
+    </div>
+</section>
