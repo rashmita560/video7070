@@ -1,1 +1,56 @@
-<p>cookies works!</p>
+<!-- cookies-policy.component.html -->
+<div class="container">
+    <h1>Cookies Policy</h1>
+    <ul>
+      <li>
+        <h2>Introduction</h2>
+        <p>{{ introduction }}</p>
+        <p><a href="{{ privacyPolicyLink }}">Learn more about cookies in our Privacy Policy</a></p>
+      </li>
+      <li>
+        <h2>Types of Cookies Used</h2>
+        <ul>
+          <li>
+            <h3>Strictly Necessary Cookies</h3>
+            <p>{{ strictlyNecessaryCookies }}</p>
+          </li>
+          <li>
+            <h3>Functionality Cookies</h3>
+            <p>{{ functionalityCookies }}</p>
+          </li>
+          <li>
+            <h3>Performance and Analytics Cookies</h3>
+            <p>{{ performanceAndAnalyticsCookies }}</p>
+          </li>
+          <li>
+            <h3>Advertising Cookies</h3>
+            <p>{{ advertisingCookies }}</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2>Cookies Management</h2>
+        <p>{{ cookieManagement }}</p>
+        <p><a href="{{ browserSettingsLink }}">Learn how to disable or delete cookies through your browser settings</a></p>
+      </li>
+      <li>
+        <h2>Third-Party Cookies</h2>
+        <ul>
+          <li>
+            <h3>Third-Party Cookie 1</h3>
+            <p>{{ thirdPartyCookie1 }}</p>
+            <p><a href="{{ thirdPartyCookie1Policy }}">View Third-Party Cookie 1's cookie policy</a></p>
+          </li>
+          <!-- Add more third-party cookies as needed -->
+        </ul>
+      </li>
+      <li>
+        <h2>Changes to the Cookies Policy</h2>
+        <p>{{ changesToCookiesPolicy }}</p>
+      </li>
+      <li>
+        <h2>Contact Information</h2>
+        <p>{{ contactInformation }}</p>
+      </li>
+    </ul>
+  </div>

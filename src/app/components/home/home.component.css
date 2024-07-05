@@ -219,6 +219,11 @@ section {
   margin-bottom: 20px;
 
 }
+.r8 img{
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 30px;
+}
 .box1{
   border: solid 2px #ECECEC;
   padding: 20px;
@@ -326,6 +331,13 @@ section {
   padding-left: 10%;
   padding-right: 10%;
 }
+
+.accordion-item{
+  margin-bottom: 10px !important;
+  border: solid 2px #ECECEC;
+  border-radius: 10px;
+  
+}
 .r13{  
   display: flex;
   flex-wrap: wrap;
@@ -432,6 +444,40 @@ section {
   list-style: none;
   padding: 0px;
 }
+
+.ytube {
+  color: #ff0000; /* YouTube's original color is red */
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.ttr {
+  font-size: 30px;
+  padding-left: 10px;
+  color: #1da1f2; /* Twitter's original color is blue */
+}
+
+.lnkdn {
+  font-size: 30px;
+  padding-left: 10px;
+  color: #0a66c2; /* LinkedIn's original color is blue */
+}
+
+.insta {
+  font-size: 30px;
+  padding-left: 5px;
+  color: #e1306c; /* Instagram's original color is a shade of pink */
+}
+.lang{
+  margin-bottom: 30px;
+  padding: 10px 90px ;
+  border-radius: 12px;
+  background: #F5F5F5 linear-gradient(to bottom, #e1e0e0, #F5F5F5);
+  color: #848493;
+  font-weight: bold;
+  border-color: #848493;
+}
+
 .r17{
   flex-wrap: wrap;
   justify-content: center;
@@ -442,6 +488,7 @@ section {
   text-align: center;
 }
 .r17 p{
+  padding-right: 30px;
   color: #6D6D6D;
   
 }
@@ -454,7 +501,6 @@ section {
   color: #4b4b4b;
   text-decoration: underline;
 }
-
 
 
 

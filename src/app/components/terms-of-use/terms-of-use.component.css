@@ -1,0 +1,39 @@
+/* terms-and-conditions.component.css */
+.container {
+    margin: 40px auto;
+    padding: 40px;
+    
+    max-width: 100%;
+    background-color: #FAFAFA;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #1f0446;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+  }
+  
+  h2 {
+    font-size: 25px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: justify;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section:last-child {
+    margin-bottom: 0;
+  }

@@ -1,3 +1,4 @@
+<!-- html -->
 <section>
     <div class="container-fluid">
         <div class="row">
@@ -42,22 +43,28 @@
             </div>
             <div id="r6">
                 <div class="box">
+                    <div class="col">
                        <h3>1</h3>
                        <p>Upload your video or share your URL</p>
                        <p>Import your file from anywhere using our uploader: a local file, Google Drive, Youtube, Dropbox, and more.</p>
                        <p>The first 10 minutes are free and there's no file limit.</p>
+                    </div>
                 </div>
                 <div class="box">
+                    <div class="col">
                         <h3>2</h3>
                         <p>Select the Language and Transcription Method</p>
                         <p>Our automatic video to text converter is extremely fast and 85% accurate.</p>
                         <p>With our human service, your transcript will be transcribed and proofread by an expert and native speaker and delivered with 99% accuracy.</p>
+                    </div>
                 </div>
                 <div class="box">
+                    <div class="col">
                         <h3>3</h3>
                         <p>Proofread and Export the Transcript</p>
                         <p>You might need to proofread and edit the final transcript with our easy-to-use transcription editor.</p>
                         <p>If you select our human service, your transcript will be ready within 24 hours.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -97,7 +104,7 @@
         <div class="r8">
             <div class="row">
                 <div class="col-md-6 col-12">
-                    <img src="" alt="">
+                    <img src="https://t3.ftcdn.net/jpg/05/75/74/42/360_F_575744213_xDU4dVUMXMJOERoAOofBUNoIIbzJXxYU.jpg" alt="">
                 </div>
                 <div class="col-md-6 col-12">
                     <div class="box1">
@@ -154,19 +161,14 @@
             <div class="col">
             <div ngbAccordion [closeOthers]="true">
                 @for (item of items; track item) {
-                    <div ngbAccordionItem [collapsed]="item !== 'First'">
+                    <div ngbAccordionItem [collapsed]=true>
                         <h2 ngbAccordionHeader>
-                            <button ngbAccordionButton>{{ item }}</button>
+                            <button ngbAccordionButton>{{ item.head }}</button>
                         </h2>
                         <div ngbAccordionCollapse>
                             <div ngbAccordionBody>
                                 <ng-template>
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-                                    officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-                                    wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-                                    you probably haven't heard of them accusamus labore sustainable VHS.
+                                    {{item.content}}
                                 </ng-template>
                             </div>
                         </div>
@@ -329,7 +331,7 @@
                         <div class="col">
                                     <p>Language</p>
                                     <div ngbDropdown class="d-inline-block">
-                                        <button type="button" class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>
+                                        <button type="button" class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle class="lang">
                                             Select a language-
                                         </button>
                                         <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
@@ -350,6 +352,16 @@
                             <p>Follow us on</p>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col">
+                            <a href="#"><fa-icon [icon]="faInstagram" class="insta"></fa-icon></a>
+                            <a href="#"><fa-icon [icon]="faYoutube" class="ytube"></fa-icon></a>
+                            <a href="#"><fa-icon [icon]="faTwitter" class="ttr"></fa-icon></a>
+                            <a href="#"><fa-icon [icon]="faLinkedin" class="lnkdn"></fa-icon></a>
+
+                        </div>
+                    </div>
+                    
 
                 </div>
             </div>
@@ -372,7 +384,7 @@
                     <a routerLink="/security">Security</a>
                 </div>
                 <div class="col-md-3 col-12">
-                    <a routerLink="Google API Disclosure">Google API Disclosure</a>
+                    <a routerLink="/google-api">Google API Disclosure</a>
                 </div>
             </div>
         </div>          

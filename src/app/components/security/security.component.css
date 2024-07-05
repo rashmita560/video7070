@@ -1,0 +1,60 @@
+/* security-policy.component.css */
+.container {
+    margin: 40px auto;
+    padding: 40px;
+    
+    max-width: 100%;
+    background-color: #FAFAFA;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #1f0446;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+  }
+  
+  h2 {
+    font-size: 25px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  /* Add some space between sections */
+  li:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  
+  /* Add a background color to the header */
+  .header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1
+  }

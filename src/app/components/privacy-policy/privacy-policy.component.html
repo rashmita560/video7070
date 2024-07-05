@@ -1,1 +1,67 @@
-<p>privacy-policy works!</p>
+<!-- privacy-policy.component.html -->
+<div class="container">
+    <h1>Privacy Policy</h1>
+    <ul>
+      <li>
+        <h2>Introduction</h2>
+        <p>{{ introduction }}</p>
+      </li>
+      <hr>
+      <li>
+        <h2>Information Collected</h2>
+        <ul>
+          <li><p>{{ informationCollected.personalInformation }}</p></li>
+          <li><p>{{ informationCollected.videoFiles }}</p></li>
+          <li><p>{{ informationCollected.usageData }}</p></li>
+        </ul>
+      </li>
+      <hr>
+      <li>
+        <h2>Use of Information</h2>
+        <ul>
+          <li><p>{{ useOfInformation.personalInformation }}</p></li>
+          <li><p>{{ useOfInformation.videoFiles }}</p></li>
+          <li><p>{{ useOfInformation.usageData }}</p></li>
+        </ul>
+      </li>
+      <hr>
+      <li>
+        <h2>Data Sharing</h2>
+        <p>{{ dataSharing }}</p>
+      </li>
+      <hr>
+      <li>
+        <h2>Data Security</h2>
+        <p>{{ dataSecurity }}</p>
+      </li>
+      <hr>
+      <li>
+        <h2>User Rights</h2>
+        <ul>
+          <li><p>{{ userRights.access }}</p></li>
+          <li><p>{{ userRights.correction }}</p></li>
+          <li><p>{{ userRights.optOut }}</p></li>
+        </ul>
+      </li>
+      <hr>
+      <li>
+        <h2>Cookies and Tracking Technologies</h2>
+        <p>{{ cookiesAndTracking }}</p>
+      </li>
+      <hr>
+      <li>
+        <h2>Third-Party Links</h2>
+        <p>{{ thirdPartyLinks }}</p>
+      </li>
+      <hr>
+      <li>
+        <h2>Changes to the Privacy Policy</h2>
+        <p>{{ changesToPrivacyPolicy }}</p>
+      </li>
+      <hr>
+      <li>
+        <h2>Contact Information</h2>
+        <p>{{ contactInformation }}</p>
+      </li>
+    </ul>
+  </div>

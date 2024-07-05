@@ -20,17 +20,20 @@ section {
   height: 100px;
 
 }
-.r1 a{
-        text-decoration: none;
+.loginlink{
         color: #030303; 
         background:#f5f1f1;
         border-radius: 3px;        
         padding: 3px;
-    }
+}
+.r1 a{
+        text-decoration: none;
+        
+}
 .r1 h3{
         text-decoration: none;
         color: #C629EE; 
-        font: bold 34px serif;        
+        font: bold 40px serif;        
         text-align: left;
         letter-spacing: 10px;
         line-height: 50px;
@@ -38,7 +41,6 @@ section {
      .neon {
         font-family: neon;
         color: #fb42cd;
-        font-size: 9vw;
         line-height: 9vw;
         text-shadow: 0 0 3vw #ec0af4;
       }
@@ -61,7 +63,7 @@ section {
       }
 .r1 img{    
         width: 80%;
-        height: 100px;
+        height: 97px;
         border-radius: 2px;
         margin-bottom: 20px;
     }
